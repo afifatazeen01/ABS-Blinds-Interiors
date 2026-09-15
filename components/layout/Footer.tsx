@@ -32,10 +32,10 @@ export function Footer() {
           <div className={styles.col}>
             <h4 className={styles.heading}>Products</h4>
             <ul className={styles.list}>
-              <li><Link href="/products/blinds">Blinds</Link></li>
-              <li><Link href="/products/curtains">Curtains</Link></li>
-              <li><Link href="/products/wallpapers">Wallpapers</Link></li>
-              <li><Link href="/products/wooden-flooring">Flooring</Link></li>
+              <li><Link href="/products">Blinds</Link></li>
+              <li><Link href="/products">Curtains</Link></li>
+              <li><Link href="/products">Wallpapers</Link></li>
+              <li><Link href="/products">Flooring</Link></li>
               <li><Link href="/products">All Products</Link></li>
             </ul>
           </div>
