@@ -2,7 +2,6 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "./Header.module.css";
 import { Container } from "./Container";
-import { business } from "../../data/business";
 import { Button } from "../ui/Button";
 
 export function Header() {
