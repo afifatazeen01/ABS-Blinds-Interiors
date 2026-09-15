@@ -9,33 +9,23 @@ export type Product = {
 };
 
 export const products: Product[] = [
-  // Blinds
+  // Placeholder data only
   {
-    id: "roller-blinds",
+    id: "placeholder-1",
     categoryId: "blinds",
-    name: "Roller Blinds",
-    slug: "roller-blinds",
-    description: "Clean lines and effortless elegance for modern spaces.",
-    images: ["/images/products/roller-blinds.jpg"],
-    features: ["Custom sizes", "Various opacities", "Easy maintenance"],
+    name: "Sample Blind Product [PLACEHOLDER]",
+    slug: "sample-blind-placeholder",
+    description: "[PLACEHOLDER TEXT: Replace this with an actual product description provided by ABS Blinds.]",
+    images: ["/images/products/placeholder.jpg"],
+    features: ["[PLACEHOLDER FEATURE 1]", "[PLACEHOLDER FEATURE 2]"],
   },
   {
-    id: "zebra-blinds",
-    categoryId: "blinds",
-    name: "Zebra Blinds",
-    slug: "zebra-blinds",
-    description: "Control light with stylish alternating sheer and solid stripes.",
-    images: ["/images/products/zebra-blinds.jpg"],
-    features: ["Light control", "Modern aesthetic"],
-  },
-  // Curtains
-  {
-    id: "blackout-curtains",
+    id: "placeholder-2",
     categoryId: "curtains",
-    name: "Blackout Curtains",
-    slug: "blackout-curtains",
-    description: "Block out light and reduce noise for a perfect night's sleep.",
-    images: ["/images/products/blackout-curtains.jpg"],
-    features: ["Noise reduction", "Total privacy", "Thermal insulation"],
+    name: "Sample Curtain Product [PLACEHOLDER]",
+    slug: "sample-curtain-placeholder",
+    description: "[PLACEHOLDER TEXT: Replace this with an actual product description.]",
+    images: ["/images/products/placeholder.jpg"],
+    features: ["[PLACEHOLDER FEATURE 1]"],
   }
 ];

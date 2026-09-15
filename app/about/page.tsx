@@ -19,28 +19,19 @@ export default function AboutPage() {
       <Container className={styles.content}>
         <div className={styles.grid}>
           <div className={styles.textContent}>
-            <h2>Our Story</h2>
+            <h2>Our Business</h2>
             <p>
-              Based in Hyderabad, ABS Blinds & Interiors was founded on a simple premise: 
-              that every space deserves to be beautiful, functional, and uniquely yours. 
-              We specialize in providing premium window treatments, bespoke wallpapers, 
-              and elegant flooring solutions tailored to your exacting standards.
+              ABS Blinds & Interiors is located in Hyderabad, Telangana, India. We specialize in 
+              providing premium interior products and solutions, including Blinds, Curtains, 
+              Customized Wallpapers, Glass Flooring, Wooden Flooring, Glass Film, and Wooden Carpentry.
             </p>
             <p>
-              We believe that the right interior elements can completely transform a room. 
-              That&apos;s why we source only the finest materials and employ expert craftsmen 
-              to ensure that every product we install is of the highest quality.
-            </p>
-
-            <h2>Our Approach</h2>
-            <p>
-              From the initial consultation to the final installation, our process is 
-              designed around you. We take the time to understand your lifestyle, aesthetic 
-              preferences, and functional needs, ensuring a seamless and satisfying journey.
+              Our goal is to offer high-quality materials and bespoke solutions for residential and 
+              commercial spaces. [PLACEHOLDER: Please provide your actual business history and mission statement here].
             </p>
           </div>
           <div className={styles.imageCol}>
-            {/* Placeholder for an interior workshop or team image */}
+            {/* [PLACEHOLDER IMAGE: To be replaced with actual ABS team or showroom photo] */}
             <div className={styles.imagePlaceholder}></div>
           </div>
         </div>

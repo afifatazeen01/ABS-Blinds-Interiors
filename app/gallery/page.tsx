@@ -23,9 +23,9 @@ export default function GalleryPage() {
     <main className={styles.main}>
       <section className={styles.header}>
         <Container>
-          <h1 className={styles.title}>Our Transformations</h1>
+          <h1 className={styles.title}>Gallery [PLACEHOLDER]</h1>
           <p className={styles.subtitle}>
-            A curated portfolio of spaces enhanced by our premium window and interior solutions.
+            [PLACEHOLDER TEXT: The images below are structural placeholders. They will be replaced with actual photos of ABS Blinds & Interiors' completed projects.]
           </p>
         </Container>
       </section>
