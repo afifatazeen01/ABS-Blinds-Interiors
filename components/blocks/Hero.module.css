@@ -1,0 +1,96 @@
+.hero {
+  position: relative;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin-top: -80px; /* Offset the header height to go full bleed */
+  padding-top: 80px;
+}
+
+.background {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.imagePlaceholder {
+  width: 100%;
+  height: 100%;
+  background-color: #d8cec4; /* Warm neutral fallback */
+  background-image: linear-gradient(to right, #d8cec4, #e6ddd3);
+  /* In reality, we'd use next/image here, but this is the foundation */
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(251, 251, 249, 0.9) 0%,
+    rgba(251, 251, 249, 0.7) 40%,
+    rgba(251, 251, 249, 0.2) 100%
+  );
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+}
+
+.textContent {
+  max-width: 600px;
+  animation: fadeUp 1s ease-out forwards;
+}
+
+.headline {
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  line-height: 1.1;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+}
+
+.subhead {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin-bottom: 2.5rem;
+  max-width: 500px;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.secondaryBtn {
+  border-color: var(--text-primary);
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .overlay {
+    background: linear-gradient(
+      to top,
+      rgba(251, 251, 249, 1) 0%,
+      rgba(251, 251, 249, 0.8) 60%,
+      rgba(251, 251, 249, 0.4) 100%
+    );
+  }
+  .textContent {
+    margin-top: 20vh;
+  }
+}

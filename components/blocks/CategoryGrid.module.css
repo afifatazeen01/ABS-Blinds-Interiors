@@ -1,0 +1,39 @@
+.section {
+  padding: var(--spacing-section) 0;
+  background-color: var(--bg-primary);
+}
+
+.header {
+  margin-bottom: 4rem;
+  text-align: center;
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 2rem;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}

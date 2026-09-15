@@ -1,0 +1,30 @@
+.section {
+  padding: calc(var(--spacing-section) * 1.5) 0;
+  background-color: var(--accent);
+  text-align: center;
+}
+
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2.8rem;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  opacity: 0.9;
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 2rem;
+  }
+}
