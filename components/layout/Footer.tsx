@@ -1,18 +1,29 @@
 import Link from "next/link";
-import styles from "./Footer.module.css";
+import Image from "next/image";
 import { Container } from "./Container";
 import { business } from "../../data/business";
+import styles from "./Footer.module.css";
 
 export function Footer() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className={styles.footer}>
-      <Container className={styles.footerInner}>
+      <Container>
         <div className={styles.grid}>
           {/* Brand Column */}
-          <div className={styles.col}>
-            <span className={styles.logo}>{business.name}</span>
+          <div className={styles.colBrand}>
+            <Link href="/" className={styles.logoLink} aria-label="ABS Blinds & Interiors Home">
+              <Image 
+                src="/images/branding/logo.png" 
+                alt="ABS Blinds & Interiors Logo" 
+                width={150} 
+                height={50} 
+                style={{ objectFit: 'contain' }}
+              />
+            </Link>
             <p className={styles.description}>
-              {business.slogan}. Designing spaces with premium window and interior solutions.
+              {business.slogan}. Elevating spaces across Hyderabad with premium window treatments and bespoke interior solutions.
             </p>
           </div>
 
