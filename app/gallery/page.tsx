@@ -25,7 +25,7 @@ export default function GalleryPage() {
         <Container>
           <h1 className={styles.title}>Gallery [PLACEHOLDER]</h1>
           <p className={styles.subtitle}>
-            [PLACEHOLDER TEXT: The images below are structural placeholders. They will be replaced with actual photos of ABS Blinds & Interiors' completed projects.]
+            [PLACEHOLDER TEXT: The images below are structural placeholders. They will be replaced with actual photos of ABS Blinds &amp; Interiors&apos; completed projects.]
           </p>
         </Container>
       </section>
