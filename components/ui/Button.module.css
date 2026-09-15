@@ -1,0 +1,45 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 1.75rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 2px; /* Slight rounding, mostly sharp for modern minimal */
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 1px solid transparent;
+  font-family: var(--font-body);
+  letter-spacing: 0.5px;
+}
+
+.primary {
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+}
+
+.primary:hover {
+  background-color: var(--accent);
+  color: var(--text-primary);
+}
+
+.secondary {
+  background-color: var(--accent);
+  color: var(--text-primary);
+}
+
+.secondary:hover {
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+}
+
+.outline {
+  background-color: transparent;
+  border-color: var(--bg-dark);
+  color: var(--text-primary);
+}
+
+.outline:hover {
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+}
