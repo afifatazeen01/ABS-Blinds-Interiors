@@ -1,0 +1,62 @@
+:root {
+  /* Colors */
+  --bg-primary: #fbfbf9; /* Warm ivory/off-white */
+  --bg-secondary: #f2efe9; /* Natural beige */
+  --bg-dark: #222222; /* Charcoal */
+  
+  --text-primary: #222222;
+  --text-secondary: #555555;
+  --text-light: #fbfbf9;
+  
+  --accent: #bda88e; /* Subtle muted tone / Sand */
+  
+  /* Typography */
+  --font-body: var(--font-inter), sans-serif;
+  --font-heading: var(--font-playfair), serif;
+  
+  /* Spacing */
+  --container-width: 1280px;
+  --spacing-section: 6rem;
+  --spacing-element: 2rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-primary: #1a1a1a;
+    --bg-secondary: #2a2a2a;
+    --bg-dark: #111111;
+    --text-primary: #fbfbf9;
+    --text-secondary: #bbbbbb;
+    --text-light: #ffffff;
+    --accent: #bda88e;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 500;
+}
