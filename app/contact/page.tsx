@@ -26,7 +26,7 @@ export default function ContactPage() {
           <div className={styles.infoCol}>
             <h2>Get In Touch</h2>
             <p className={styles.infoText}>
-              We're here to help you find the perfect interior solutions. 
+              We&apos;re here to help you find the perfect interior solutions. 
               Call us directly, send us a WhatsApp message, or drop us an email.
             </p>
             

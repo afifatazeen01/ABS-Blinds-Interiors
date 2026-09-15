@@ -28,7 +28,7 @@ export default function AboutPage() {
             </p>
             <p>
               We believe that the right interior elements can completely transform a room. 
-              That's why we source only the finest materials and employ expert craftsmen 
+              That&apos;s why we source only the finest materials and employ expert craftsmen 
               to ensure that every product we install is of the highest quality.
             </p>
 
